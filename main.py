@@ -16,10 +16,10 @@ def main():
   
   if program == 1:
     from part1 import distinct
-    num1 = int(input("Enter a number: "))
-    num2 = int(input("Enter a number: "))
-    num3 = int(input("Enter a number: "))
-    print(distinct(num1, num2, num3))
+    s1 = int(input("Enter a number: "))
+    s2 = int(input("Enter a number: "))
+    s3 = int(input("Enter a number: "))
+    print(distinct(s1, s2, s3))
 
   elif program == 2:
     from part2 import celsius

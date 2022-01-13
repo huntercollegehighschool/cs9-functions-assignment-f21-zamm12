@@ -7,8 +7,8 @@ The function distinct() below takes three numbers as arguments, and returns True
 However, there are (at least) 7 errors in the code. Fix them so that it runs properly.
 '''
 
-def distinct():
-  if a != b and b!= c: 
-    return True
-    elif
-    return False 
+def distinct(s1,s2,s3):
+ 
+  if s1!=s2 and s2!=s3 and s3!=s1:
+     print ("false")
+    
